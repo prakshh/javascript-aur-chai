@@ -77,7 +77,7 @@ let booleanIsBlank = Boolean(isBlank)
 console.log("typeof booleanIsBlank is: " + typeof booleanIsBlank) //boolean
 console.log("value of booleanIsBlank is: " + booleanIsBlank) //false
 
-let is2Blanks = ""
+let is2Blanks = " "
 console.log(typeof is2Blanks) //string
 let booleanIs2Blanks = Boolean(is2Blanks)
 console.log("typeof booleanIs2Blanks is: " + typeof booleanIs2Blanks) //boolean
