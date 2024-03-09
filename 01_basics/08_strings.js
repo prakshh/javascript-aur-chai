@@ -23,3 +23,6 @@ console.log(gameName.indexOf('z'))      // 3     // indexOf should have characte
 const newString = gameName.substring(0, 4)
 console.log(newString)  //Forz  // The substring() method of String values returns the part of this string from the start index up to and excluding the end index, or to the end of the string if no end index is supplied.
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring
+
+const anotherString = gameName.slice(-8, 4)
+console.log(anotherString) 
